@@ -22,7 +22,7 @@ namespace PokemonSweeper
             Question
         }
 
-        public Square(Field field, int rows, int columns, int row, int column)
+        public Square(Field2 field, int rows, int columns, int row, int column)
         {
             Field = field;
             NrOfRows = rows;
@@ -44,7 +44,7 @@ namespace PokemonSweeper
             set { NrOfRows = value; }
         }
 
-        public Field Field { get; set; }
+        public Field2 Field { get; set; }
         public Pokemon Pokemon { get; set; }
 
         public int Mines
